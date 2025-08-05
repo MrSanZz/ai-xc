@@ -25,13 +25,9 @@ from dataclasses import dataclass
 from typing import List, Dict, Optional, Tuple
 import pickle
 from tqdm import tqdm
-import math
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import queue
-import requests
 from urllib.parse import quote
-import asyncio
-import aiohttp
+
 
 locker = False
 nltk.download('punkt', quiet=True)
