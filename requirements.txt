@@ -2,3 +2,6 @@ nltk
 torch
 scikit-learn
 datasets
+numpy
+tqdm
+typing
